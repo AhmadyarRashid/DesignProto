@@ -6,6 +6,7 @@ import {
     Link
 } from "react-router-dom";
 import HomePage from '../pages/Home';
+import HomePage2 from '../pages/Home2';
 
 export default function Routes() {
     return (
@@ -14,6 +15,8 @@ export default function Routes() {
                 <Route exact path="/">
                     <HomePage/>
                 </Route>
+
+                <Route exact path="/home2" component={HomePage2}/>
             </Switch>
         </Router>
     )
