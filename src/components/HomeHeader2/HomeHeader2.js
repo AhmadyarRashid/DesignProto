@@ -5,7 +5,7 @@ import {LockOutlined, UserOutlined, MailOutlined} from "@ant-design/icons";
 
 export default function HomeHeader2(props) {
     return (
-        <div style={{height: 650}}>
+        <div style={{height: 750}}>
             <div className="box">
                 <img src={Background} style={{width: '100%'}} height={750} alt="Flying Kites"/>
                 <div className='text2'>

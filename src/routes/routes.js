@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import HomePage from '../pages/Home';
 import HomePage2 from '../pages/Home2';
+import HomePage3 from '../pages/Home3';
 
 export default function Routes() {
     return (
@@ -16,7 +17,8 @@ export default function Routes() {
                     <HomePage/>
                 </Route>
 
-                <Route exact path="/home2" component={HomePage2}/>
+                <Route exact path="/1" component={HomePage2}/>
+                <Route exact path="/2" component={HomePage3}/>
             </Switch>
         </Router>
     )
