@@ -9,6 +9,7 @@ import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import Row from "antd/es/grid/row";
 import Col from "antd/es/grid/col";
+import {DownloadOutlined, PrinterOutlined} from '@ant-design/icons';
 
 const useStyles = makeStyles((theme) => ({
     formControl: {
@@ -253,8 +254,8 @@ export default function (props) {
                                         <span style={{fontSize: 25}}>KRAV ER INDSENDT</span><br/>
                                         <span>Print eller gem en kopi til dit eget bogholderi. Der sendes besked og gaeldbogsnummer til den angivne e-mail</span>
                                         <Row style={{marginTop: 25}}>
-                                            <Col span={5}>Download</Col>
-                                            <Col span={5}>Print</Col>
+                                            <Col span={5}><DownloadOutlined style={{marginRight: 8}}/>Download</Col>
+                                            <Col span={5}><PrinterOutlined style={{marginRight: 8}}/>Print</Col>
                                         </Row>
                                     </div>
                                 </div>

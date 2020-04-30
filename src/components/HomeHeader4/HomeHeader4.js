@@ -2,6 +2,7 @@ import React from 'react';
 import Background from "../../assets/sea.PNG";
 import {Col, Row, Button} from "antd";
 import {LockOutlined, UserOutlined, MailOutlined} from "@ant-design/icons";
+import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 import './HomeHeader4.css';
 
 export default function HomeHeader2(props) {
